@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leilão de Veículos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .auction-timer {
+      font-weight: bold;
+      color: red;
+    }
+    .login, .cadastro, .painel {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: 2rem auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      margin: 1rem 0;
+      padding: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leilão de Veículos</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Entrar</a>
+      <a href="#">Cadastrar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Fiat Uno 2010</h2>
+      <p>Último lance: R$ 8.500</p>
+      <p class="auction-timer">Termina em: 00:15:23</p>
+      <button>Ver Detalhes</button>
+    </div>
+
+    <div class="card">
+      <h2>Gol G5 2009</h2>
+      <p>Último lance: R$ 9.000</p>
+      <p class="auction-timer">Termina em: 01:02:10</p>
+      <button>Ver Detalhes</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Leilão de Veículos. Pagamento feito fora do site.</p>
+  </footer>
+</body>
+</html>
